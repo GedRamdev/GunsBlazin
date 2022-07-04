@@ -58,12 +58,12 @@
   <ItemGroup>
     <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_AIStats.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Editor\Dino_WanderManagerEditor.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Editor\Dino_WanderScriptEditor.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Editor\Dino_StatsTable.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_AudioManager.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_WanderManager.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_SurfaceRotation.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_WanderScript.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Editor\Dino_WanderScriptEditor.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_AudioManager.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Wander Script\Dino_WanderManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\polyperfect\Low Poly Animated Dinos\- Scripts\Polyperfect.Dinos.asmdef" />
@@ -327,8 +327,23 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>

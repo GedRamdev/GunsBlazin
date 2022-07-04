@@ -58,22 +58,22 @@
   <ItemGroup>
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\IK\HumanBoneOffset.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_AudioManager.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\IK\Editor\PolyIkEditor.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\AtlasGenerator\AtlasGenerator.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_WanderScript.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\LayoutGameobjectInGrid.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\AtlasGenerator\Editor\AtlasEditor.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\3RD Person Character Controller\PlayerController.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Character Viewer\Polyperfect_CameraController.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Character Viewer\CharacterManager.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_WanderManager.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_SurfaceRotation.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\MakeCharacters.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_AIStats.cs" />
-    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\CustomPeople.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\PolyMorpher.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Character Viewer\EditorExtensions.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\IK\PolyIk.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\IK\Editor\PolyIkEditor.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\AtlasGenerator\AtlasGenerator.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_WanderScript.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\AtlasGenerator\Editor\AtlasEditor.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\People_WanderManager.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\MakeCharacters.cs" />
+    <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\CustomPeople.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Scripts\Wander Script\Editor\People_WanderScriptEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -280,6 +280,21 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

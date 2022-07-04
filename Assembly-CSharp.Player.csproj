@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,29 +53,20 @@
     <UnityVersion>2021.3.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PowerUps\PowerupTester.cs" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\NewMaterialChange.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\LookAtTarget.cs" />
     <Compile Include="Assets\TestArea\Scripts\Controllers\PlayerController.cs" />
     <Compile Include="Assets\TestArea\Scripts\Controllers\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\LayoutGameobjectInGrid.cs" />
     <Compile Include="Assets\TestScript.cs" />
     <Compile Include="Assets\EnemyMelee.cs" />
     <Compile Include="Assets\polyperfect\Low Poly Animated People\- Materials\Simple Water\SimpleWater.cs" />
-    <Compile Include="Assets\FireBallScript.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ObjectMoveDestroy.cs" />
-    <Compile Include="Assets\PlayButtonScript.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousRotateObject.cs" />
     <Compile Include="Assets\Scripts\Damage\DamageText.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ShieldActivate.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ScaleFactorApplyToMaterial.cs" />
-    <Compile Include="Assets\Scripts\PowerUps\PowerupObject.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousEffectsScene.cs" />
-    <Compile Include="Assets\TestArea\Scripts\Controllers\CameraFOV.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DelayActive.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousMouseOrbit.cs" />
     <Compile Include="Assets\Scripts\Player\HealthBar.cs" />
     <Compile Include="Assets\Scripts\PowerUps\PowerupDropper.cs" />
     <Compile Include="Assets\AirbornFollowPlayer.cs" />
@@ -83,17 +74,29 @@
     <Compile Include="Assets\Scripts\PowerUps\PowerupType.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousTranslateMove.cs" />
-    <Compile Include="Assets\Scripts\PowerUps\PowerupHandler.cs" />
-    <Compile Include="Assets\RotateCameraScript.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ChangeSizeColor.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\MatchRotation.cs" />
     <Compile Include="Assets\Scripts\SpawnProjectile.cs" />
     <Compile Include="Assets\Scripts\PowerUps\PowerupText\PowerupTextManager.cs" />
-    <Compile Include="Assets\Scripts\PowerUps\Powerup.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\_ObjectsMakeBase.cs" />
     <Compile Include="Assets\Scripts\MobSpawner.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ObjectMove.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerupTester.cs" />
+    <Compile Include="Assets\Scripts\LayoutGameobjectInGrid.cs" />
+    <Compile Include="Assets\FireBallScript.cs" />
+    <Compile Include="Assets\PlayButtonScript.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousRotateObject.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ShieldActivate.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerupObject.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousEffectsScene.cs" />
+    <Compile Include="Assets\TestArea\Scripts\Controllers\CameraFOV.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DelayActive.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousMouseOrbit.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerupHandler.cs" />
+    <Compile Include="Assets\RotateCameraScript.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\MatchRotation.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\Powerup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\polyperfect\Low Poly Icon Pack\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -714,29 +717,33 @@
       <Project>{1DD75984-E8D7-A9EC-C81E-06DDFCC1B6CC}</Project>
       <Name>Polyperfect.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{64AF4438-76F5-EB98-EE93-0375F75E52F1}</Project>
-      <Name>Unity.Services.Core.Analytics</Name>
-    </ProjectReference>
     <ProjectReference Include="Polyperfect.People.csproj">
       <Project>{7B4B3BF5-A5B6-3924-7AF3-904ACC0B3207}</Project>
       <Name>Polyperfect.People</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{3662F25D-096F-79BE-FF59-E95CCF5C0682}</Project>
-      <Name>Unity.Services.Core.Environments</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{A842D619-B4D9-A53B-938B-C88FB04A877A}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{05CB3174-DCDF-99F1-27DC-7EC9C2673654}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{5EB73C0A-981A-FEDB-5757-F9C66531914A}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="Polyperfect.Dinos.csproj">
-      <Project>{5DFBCABE-72EC-3780-8B5B-1F03DEB9956F}</Project>
-      <Name>Polyperfect.Dinos</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{839CD090-B08D-5C8F-761D-A48EE2491FAD}</Project>
       <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{5DC83CF5-A4E3-FC6A-B848-5273D6D9C894}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{3FA95890-6E15-1BEE-214D-65DC2AF897B5}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{E4CCC8AB-6FAB-2C41-1AAC-F7E616AAA982}</Project>
@@ -750,37 +757,33 @@
       <Project>{F9C06365-BE25-E766-A0FD-2726CFFD2A66}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{A842D619-B4D9-A53B-938B-C88FB04A877A}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{5DC83CF5-A4E3-FC6A-B848-5273D6D9C894}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{B77FDD23-BAC5-700D-B022-F8945306784E}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{3FA95890-6E15-1BEE-214D-65DC2AF897B5}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{832172AF-1DCA-98D3-DF87-22FA58C4F34E}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{8DFFE5AB-9E7D-F98F-4BFC-7F9804BDD3C6}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{64AF4438-76F5-EB98-EE93-0375F75E52F1}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{90A76263-63B9-0584-6686-D707B3C98B96}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{05CB3174-DCDF-99F1-27DC-7EC9C2673654}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{3662F25D-096F-79BE-FF59-E95CCF5C0682}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Dinos.csproj">
+      <Project>{5DFBCABE-72EC-3780-8B5B-1F03DEB9956F}</Project>
+      <Name>Polyperfect.Dinos</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{8DFFE5AB-9E7D-F98F-4BFC-7F9804BDD3C6}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{B77FDD23-BAC5-700D-B022-F8945306784E}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
