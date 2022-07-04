@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5762175543535855316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7323160512032040336}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: EnemyHead
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7323160512032040336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5762175543535855316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.16, y: 1.645, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3658403144055203695}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6548408395559407471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3944551421566109221, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_Name
+      value: ZombieEnemyMelee
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944551421566109221, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275012452636532334, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552478675388565187, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 639929980972873073, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+    - {fileID: 4275012452636532334, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7323160512032040336}
+  m_SourcePrefab: {fileID: 100100000, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+--- !u!4 &3658403144055203695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7504647326339966976, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+  m_PrefabInstance: {fileID: 6548408395559407471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7808470050464385354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3944551421566109221, guid: 167514c6cfa9ab64eb6fd3d68ab58b72, type: 3}
+  m_PrefabInstance: {fileID: 6548408395559407471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5855351831821837289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808470050464385354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8752413, y: 1.9225461, z: 1}
+  m_Center: {x: 0.019055367, y: 0.9188814, z: 0}
+--- !u!114 &-90841605659697630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808470050464385354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a28c86ccde891e4f840f253d5210b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerScript: {fileID: 0}
+--- !u!114 &478019278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808470050464385354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034ab1dd8c2ca554680c852cc0685539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyCurHealth: 0
+  enemyMaxHealth: 100
+  deleteMeAfterTime: 5
+  distanceWhenIStartAttacking: 4
+  enemyDamage: 5
+  walk: isWalking
+  attack: isKicking
+  die: isDead1
+  bloodSplatterVFX: {fileID: 1362418652685942, guid: b369efb4abe69e044890b664115fab9e, type: 3}
